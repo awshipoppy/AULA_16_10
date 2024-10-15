@@ -10,15 +10,9 @@ Filtro de Média: Entre os três, o filtro de média é o mais eficaz em suaviza
 c) E qual foi mais eficaz para destacar as bordas?
 Filtro de Sobel: O filtro de Sobel é o mais eficaz para destacar as bordas, pois foi projetado especificamente para isso. Ele detecta as mudanças de intensidade na imagem, realçando bordas de objetos, superfícies e detalhes. Esse filtro é amplamente utilizado para fins de detecção de bordas e segmentação de imagem.
 d) Quais situações podem exigir o uso de cada tipo de filtro em um projeto real?
-Filtro de Sobel:
-
-Situações que envolvem detecção de bordas ou segmentação de imagem, como identificação de contornos de objetos, extração de características ou reconhecimento de formas em imagens.
+Filtro de Sobel: Situações que envolvem detecção de bordas ou segmentação de imagem, como identificação de contornos de objetos, extração de características ou reconhecimento de formas em imagens.
 Útil em projetos de visão computacional, robótica, e análise de imagens médicas, onde é necessário destacar limites e superfícies.
-Filtro de Média:
-
-Projetos que precisam de suavização geral da imagem para remover pequenos ruídos, como em fotografia, edição de imagem, ou redução de ruído em fotos com pouca luz.
+Filtro de Média: Projetos que precisam de suavização geral da imagem para remover pequenos ruídos, como em fotografia, edição de imagem, ou redução de ruído em fotos com pouca luz.
 Pode ser usado em sistemas de pré-processamento de imagem, onde se deseja remover ruído antes de aplicar outros algoritmos de processamento.
-Filtro de Mediana:
-
-Situações que envolvem a necessidade de remoção de ruído "sal e pimenta" sem comprometer significativamente as bordas da imagem, como em imagens de câmeras de segurança, onde o ruído pode interferir no reconhecimento.
+Filtro de Mediana: Situações que envolvem a necessidade de remoção de ruído "sal e pimenta" sem comprometer significativamente as bordas da imagem, como em imagens de câmeras de segurança, onde o ruído pode interferir no reconhecimento.
 Muito utilizado em processamento de imagens médicas (por exemplo, imagens de ultrassom), onde a preservação das bordas e a remoção de ruído são essenciais.
