@@ -1,0 +1,24 @@
+a) Como a imagem original mudou após a aplicação de cada filtro?
+Filtro de Sobel: O filtro de Sobel detecta bordas na imagem, calculando a derivada da intensidade dos pixels em direções específicas (horizontal e vertical). Após a aplicação desse filtro, a imagem original se transforma em uma imagem de bordas acentuadas, evidenciando as transições de intensidade. Detalhes como contornos e objetos na imagem se tornam mais definidos.
+
+Filtro de Média: Esse filtro suaviza a imagem, substituindo cada pixel pela média dos valores de seus vizinhos em uma janela definida. Isso gera uma redução de ruídos e texturas, mas pode acabar borrando detalhes e bordas. A imagem resultante é mais "suave", mas perde nitidez nas bordas e pequenos detalhes.
+
+Filtro de Mediana: O filtro de mediana também suaviza a imagem, mas de forma diferente. Ele substitui cada pixel pelo valor mediano dos seus vizinhos, o que preserva melhor as bordas comparado ao filtro de média, além de ser eficaz na remoção de ruído "sal e pimenta". A imagem se torna mais suave, mas com maior preservação dos contornos em comparação ao filtro de média.
+
+b) Qual filtro foi mais eficaz para suavizar a imagem?
+Filtro de Média: Entre os três, o filtro de média é o mais eficaz em suavizar a imagem, pois reduz o ruído de forma agressiva e desfoca a imagem inteira, borrando detalhes. Quanto maior o tamanho da janela (por exemplo, 25x25), mais desfocada e suave a imagem se torna.
+c) E qual foi mais eficaz para destacar as bordas?
+Filtro de Sobel: O filtro de Sobel é o mais eficaz para destacar as bordas, pois foi projetado especificamente para isso. Ele detecta as mudanças de intensidade na imagem, realçando bordas de objetos, superfícies e detalhes. Esse filtro é amplamente utilizado para fins de detecção de bordas e segmentação de imagem.
+d) Quais situações podem exigir o uso de cada tipo de filtro em um projeto real?
+Filtro de Sobel:
+
+Situações que envolvem detecção de bordas ou segmentação de imagem, como identificação de contornos de objetos, extração de características ou reconhecimento de formas em imagens.
+Útil em projetos de visão computacional, robótica, e análise de imagens médicas, onde é necessário destacar limites e superfícies.
+Filtro de Média:
+
+Projetos que precisam de suavização geral da imagem para remover pequenos ruídos, como em fotografia, edição de imagem, ou redução de ruído em fotos com pouca luz.
+Pode ser usado em sistemas de pré-processamento de imagem, onde se deseja remover ruído antes de aplicar outros algoritmos de processamento.
+Filtro de Mediana:
+
+Situações que envolvem a necessidade de remoção de ruído "sal e pimenta" sem comprometer significativamente as bordas da imagem, como em imagens de câmeras de segurança, onde o ruído pode interferir no reconhecimento.
+Muito utilizado em processamento de imagens médicas (por exemplo, imagens de ultrassom), onde a preservação das bordas e a remoção de ruído são essenciais.
